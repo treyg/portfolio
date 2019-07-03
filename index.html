@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <!-- Google font cdn -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- CSS Image Hover stylesheet -->
     <link rel="stylesheet" href="css/imagehover.min.css">
@@ -26,22 +27,22 @@
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <i class="fas fa-bars fa-lg"></i>
             </span>
-           <a href="#" class="logo"><img src="images\logo.svg" alt=""></a>
+           <a href="#" class="logo"><img src="" alt="">trey</a>
             <ul class="main-nav" id="js-menu">
                 <li><i class="fas fa-home" style="color: #6772e5"></i>
                     <a href="#" class="nav-links">Home</a>
                 </li>
                 <li><i class="fa fa-address-card" style="color:#3ecf8e"></i>
-                    <a href="#" class="nav-links">About</a>
+                    <a href="#about" class="nav-links">About</a>
                 </li>
                 <li><i class="fas fa-laptop-code" style="color:rgb(236, 103, 42)"></i>
-                    <a href="#" class="nav-links">Skills</a>
+                    <a href="#skills" class="nav-links">Skills</a>
                 </li>
                 <li><i class="fas fa-project-diagram" style="color: #68D4F8"></i>
-                    <a href="#" class="nav-links">Projects</a>
+                    <a href="#projects" class="nav-links">Projects</a>
                 </li>
                 <li><i class="fas fa-paper-plane" style="color: #f3a3eb"></i>
-                    <a href="#" class="nav-links">Contact</a>
+                    <a href="#contact" class="nav-links">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -55,6 +56,7 @@
     <div class="areaFour"></div>
     <div class="areaFive"></div>
     <div class="areaSix"></div>
+
     
 </div>
 
@@ -66,8 +68,8 @@
             specializing in small business site development and technical search engine optimization.</h2>
         <!-- <p><span class="typed" style="color: rgb(255, 255, 255)"></span></p> -->
         <br>
-        <button type="button" class="hero-button">Learn More</button>
-        <button type="button" class="hero-button2">See Projects</button>
+       <a href="#about"><button class="hero-button">Learn More</button></a>
+        <a href="#projects"><button class="hero-button2">See Projects</button></a>
     </div>
   
 <!-- Flat image div -->
@@ -77,8 +79,8 @@
     
 <!-- About Title and Lines -->
 
-    <div class="about-title">
-        <h2 id="about">Who am I?</h2>
+    <div class="about-title" id="about">
+        <h2>Who am I?</h2>
         <span>
             <i class="fa fa-address-card"></i>
           </span>
@@ -88,7 +90,7 @@
 <!-- Start About Section -->
 <div class="about-section">
        
-        <div class="about-txt">
+        <div class="about-txt" id="about">
             <p>I am a front end web developer from Grand Rapids, Michigan, specializing
                 in responsive web design built around technical SEO.
                 <br><br> ipsum dolor sit amet consectetur adipisicing elit. Nemo, odit?
@@ -121,7 +123,7 @@
         recusandae fugit pariatur molestias voluptates.</p>
     </div>
     
-<section class="skillsSection">
+<section class="skillsSection" id="skills">
 
     <div class="skills">
         <h2>skills<i class="fas fa-laptop-code"></i></h2>
@@ -144,7 +146,7 @@
             <img src="/images/github-icon.svg" alt="">
             <img src="/images/figma.png" alt="">
             <img src="/images/visual-studio-code.svg" alt="">
-            <img src="/images/nodejs.svg" alt="">
+            <img src="/images/netlify.svg" alt="">
         </div>
     </div>
  
@@ -155,8 +157,8 @@
 
 
 
-<div class="title">
-    <h2 id="about">Projects</h2>
+<div class="title" id="projects">
+    <h2>Projects</h2>
 </div> 
 
 
@@ -188,7 +190,7 @@
                     <br>
                     <p>WordPress site built for a local farm market using
                      custom Elementor and custom CSS. Built, customized, and deployed entire site.</p>  
-                        <button class="project-live">Live Site</button>
+                    <button class="project-live">Live Site</button>
 
                 </div>
         </div>
@@ -217,7 +219,7 @@
 </section>
 
 
-    <div class="contact-bg">
+    <div class="contact-bg" id="contact">
         <div class="contact-box-section">
             <div class="contact-info">
                 <img src="images/care-about-planet.svg" alt="">
@@ -228,7 +230,7 @@
                 
                 </div>
                     <div class="contact-message">
-                        <img src="images/paper-plane.svg" alt="">
+                        <img src="images/paper-plane.svg">
                         <textarea name="message" placeholder="I am currently accepting freelance work. Send me a message to get in touch!" onkeyup="adjust_textarea(this)"></textarea>
                         </div>
                 </form>
@@ -244,7 +246,7 @@
 
     <div class="social-section">
         <a href="https://www.linkedin.com/in/trey-gordon-17778057/" target="blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/treyg21/" target="blank"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/treyg/" target="blank"><i class="fab fa-github"></i></a>
         <a href="https://twitter.com/TreyGordon" target="blank"><i class="fab fa-twitter"></i></a>
         <a href="https://dribbble.com/TreyG" target="blank"><i class="fab fa-dribbble"></i></a>
     </div>

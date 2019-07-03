@@ -7,7 +7,7 @@
 
 html, body {
   overflow-x: hidden;
-  
+  scroll-behavior: smooth;
   
 }
 
@@ -16,9 +16,9 @@ html, body {
 .navbar {
   font-size: 18px;
   background-image: transparent;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
-  width: 100%;
+  width: 95%;
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
@@ -44,20 +44,19 @@ html, body {
 .main-nav li {
   text-align: center;
   margin: 15px auto;
-  
+  font-weight: 600;
 }
 
 .logo {
   display: inline-block;
   font-size: 22px;
   margin-top: 20px;
- 
+  font-weight: 600;
+  font-size: 32px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.logo img {
-  width: 30%;
-  margin-top: 20px;
-}
+
 
 .navbar-toggle {
   position: absolute;
@@ -136,6 +135,7 @@ html, body {
     margin-top: 15px;
     border-radius: 5px;
     box-shadow: 0px 5px 15px -4px rgb(59, 16, 107);
+    
   }
 
   #js-menu li a {
@@ -170,7 +170,7 @@ html, body {
   right: 0;
   width: 95%;
   max-width: 1100px;;
-  
+  z-index: 1;
 }
 
 .hero-text h1 {
@@ -237,6 +237,7 @@ html, body {
     margin-right: 20px;
     font-weight: 550;
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+   
   }
 
   .hero-button2 {
@@ -253,6 +254,7 @@ html, body {
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
   }
 
+  
   button:hover {
     transition: .3s ease;
     cursor: pointer;
@@ -350,7 +352,7 @@ html, body {
   .areaThree { 
     grid-area: areaThree; 
     background: #3e19f8;
-
+    
   }
 
   .areaFour { 
@@ -362,8 +364,8 @@ html, body {
   .areaFive { 
     grid-area: areaFive; 
     background: #25ddf5;
-    height: 50px;
-    margin-top: 420px;
+    height: 40px;
+    margin-top: 400px;
     width: 80px;
     margin-left: auto;
    
@@ -371,7 +373,6 @@ html, body {
 
   .areaSix { 
     grid-area: areaSix; 
-
   }
 
   .flatwrap {
@@ -688,9 +689,6 @@ html, body {
     margin-bottom: 10%;
   }
 
-  .what h2 {
-    
-  }
 
   .what p {
     width: 90%;
@@ -814,9 +812,7 @@ html, body {
   margin-bottom: 25px;
 }
 
-.toolIcons img:nth-child(5){
-  width: 200px;
-}
+
 
 
 /* ////////////////////////////
@@ -881,10 +877,8 @@ SKills & Tools Media Queries
 
 .toolIcons img {
   width: 12%;
-  
   margin-left: 15px;
   margin-right: 20px;
-  
 }
 
 }
@@ -969,11 +963,11 @@ SKills & Tools Media Queries
 
 .divider-line { 
   margin: 125px auto 125px;
-  height: 1px;
+  height: 2px;
   width: 70%;
   border: 0;
   background: black;
-  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, rgb(100, 100, 100)));
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #eceff1));
 
 }
 
@@ -1381,7 +1375,7 @@ textarea {
 
 .social-section i:hover {
   opacity: .5;
-  transition: 1s;
+  transition: .5s;
 }
 
 /*Footer Section*/
