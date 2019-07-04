@@ -278,8 +278,8 @@ p::selection {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "areaOne areaTwo areaTwo areaThree . ." ". . . . . ." ". . . . areaFive areaFive" "areaFour areaFour . . areaSix areaSix";
   background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
-  height: 125vh;
-  max-height: 835px;
+  height: 120vh;
+  max-height: 700px;
   transform: skewY(-12deg);
   transform-origin: 0;
   position: absolute;
@@ -327,8 +327,7 @@ p::selection {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
   .grid-container {
-    height: 60vh;
-    min-height: 500px;
+    height: 90vh;
   }
 }
 
@@ -530,13 +529,13 @@ p::selection {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
   .about-img {
-    margin-top: -100px;
+    margin-top: -130px;
     margin-right: calc(-50% - 350px);
    
   }
 
   .about-title {
-    margin-top: -10%;
+    margin-top: %;
   }
 }
 
