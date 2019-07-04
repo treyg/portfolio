@@ -8,9 +8,13 @@
 html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  
+  max-width: 1900px;
 }
 
+p::selection {
+  background: #6772e5;
+  color: white;
+}
 /* Start Navbar Styling */
 
 .navbar {
@@ -468,6 +472,32 @@ html, body {
 
   }
 
+  #contact-jump {
+    color:#6772e5;
+    font-weight: 600;
+    font-size: 17px;
+    transition: color .1s ease;
+    border:none;
+    margin: 50px auto;
+    padding: 0;
+  }
+
+  #contact-jump i {
+    font-size: 12px;
+    padding-left: 12px;
+    vertical-align: 10%;
+  }
+
+  #contact-jump:hover {
+    color: black;
+  }
+
+  #aboutContact {
+    text-decoration: none;
+
+  }
+  
+
 
   .about-img {
     margin-top: -230px;
@@ -546,6 +576,7 @@ html, body {
   
     .about-section {
       width: 90vw;
+      
     }
   
     .about-txt {
@@ -559,6 +590,9 @@ html, body {
       text-align: start;
       width: 100%;
       border: none;
+      margin-bottom: 0;
+      padding: 0;
+      
     }
   
   
@@ -588,7 +622,7 @@ html, body {
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 180%;
+    height: 165%;
     top: 0;
     -webkit-transform: skewY(-12deg);
     transform: skewY(-12deg);
