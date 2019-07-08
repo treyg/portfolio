@@ -208,13 +208,13 @@ p::selection {
   .hero-text {
     text-align: start;
     width: 90%;
-    margin-top: 10%;
+    margin-top: 15%;
    
   }
   
   .hero-text h1 {
     color: #f3f6f7;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
   }
   
@@ -229,6 +229,16 @@ p::selection {
     visibility: hidden;
   }
 
+}
+
+@media (min-width: 300px) and (max-width: 812px) and (orientation: landscape) {
+  .hero-text {
+    text-align: start;
+    width: 90%;
+    margin-top: 45px;
+   
+  }
+  
 }
 
 /* Button for hero section */
