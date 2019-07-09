@@ -236,7 +236,12 @@ p::selection {
     text-align: start;
     width: 90%;
     margin-top: 45px;
-   
+  }
+
+  .grid-container {
+    width: 100%;
+    height: 140vh;
+    max-height: 625px;
   }
   
 }
@@ -406,6 +411,17 @@ p::selection {
   }
 
 }
+
+@media (min-width: 300px) and (max-width: 812px) and (orientation: landscape) {
+
+  .grid-container {
+    
+    height: 140vh;
+    border: 2px solid red;
+  }
+
+}
+  
 
 /* SVG Phone and table div section1 */
 
