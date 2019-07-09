@@ -415,9 +415,7 @@ p::selection {
 @media (min-width: 300px) and (max-width: 812px) and (orientation: landscape) {
 
   .grid-container {
-    
     height: 145vh;
-    
   }
 
 }
@@ -575,7 +573,7 @@ p::selection {
 
  .about-title {
     padding-top: 80px;
-   border: 2px solid red;
+  
  }
 
   .about-section{
@@ -587,7 +585,12 @@ p::selection {
 @media (min-width: 788px) and (max-width: 825px) {
 
   .about-title {
-    margin-top: 150px;
+    margin-top: 100px;
+  }
+
+  .about-img {
+    margin-right: -750px;
+    margin-bottom: 50px;
   }
 
 }
