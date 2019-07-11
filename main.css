@@ -1,10 +1,10 @@
-@import url(sanitize.css);
+
 
 * {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     padding: 0;
-    
+    margin: 0;
 }
 
 
@@ -13,6 +13,7 @@ html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   max-width: 1900px;
+
 }
 
 p::selection {
@@ -153,6 +154,7 @@ p::selection {
  
 
   #js-menu li a {
+    display: block;
    color: #8898AA;
    font-weight:600;
     padding-left: 10px;
