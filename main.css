@@ -161,6 +161,7 @@ p::selection {
   }
 
   #js-menu li {
+    dislplay: block;
     padding-top: 10px;
     text-align: justify;
     text-indent: 35%;
