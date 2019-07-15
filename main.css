@@ -617,6 +617,7 @@ p::selection {
     justify-content: center;
     transform: rotate(-12deg);
     margin-bottom: -75px;
+    margin-top: 0;
     padding: 0;
   }
 
