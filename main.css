@@ -410,7 +410,8 @@ p::selection {
     grid-area: areaSix; 
     background: #a6ffcb;
     height: 40px;
-    margin-left: 20px;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .flatwrap {
