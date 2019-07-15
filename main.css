@@ -612,15 +612,18 @@ p::selection {
 @media screen and (max-width: 788px) {
 
   .mobile-section {
+    position: relative;
     display: flex;
     justify-content: center;
     transform: rotate(-12deg);
     margin-bottom: -75px;
+    padding: 0;
   }
 
   .mobile-section img {
    width: 650px;
    margin-left: 10%;
+   padding: 0;
   }
 
   .about-section {
