@@ -410,7 +410,7 @@ p::selection {
     grid-area: areaSix; 
     background: #a6ffcb;
     height: 40px;
-    width: 70%;
+    width: 120px;
     margin-left: auto;
   }
 
