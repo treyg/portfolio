@@ -203,7 +203,7 @@ p::selection {
   font-weight: 400;
   color: #d9fcff;
   line-height: 1.75;
-
+margin-top: 10px;
   
 }
 
@@ -226,11 +226,6 @@ p::selection {
     color: #f3f6f7;
     font-size: 30px;
     font-weight: 600;
-  }
-  
-  
-  .hero-text p {
-    font-size: 1.3em;
   }
 
   
@@ -307,8 +302,8 @@ p::selection {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "areaOne areaTwo areaTwo areaThree . ." ". . . . . ." ". . . . areaFive areaFive" "areaFour areaFour . . areaSix areaSix";
   background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
-  height: 120vh;
-  max-height: 800px;
+  height: 130vh;
+  max-height: 875px;
   transform: skewY(-12deg);
   transform-origin: 0;
   position: absolute;
