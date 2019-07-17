@@ -919,6 +919,10 @@ margin-top: 10px;
   margin-bottom: 25px;
 }
 
+#figma {
+  width: 10%;
+}
+
 
 
 
@@ -986,6 +990,11 @@ SKills & Tools Media Queries
   width: 12%;
   margin-left: 15px;
   margin-right: 20px;
+}
+
+
+#figma {
+  width: 8%;
 }
 
 }
@@ -1062,9 +1071,7 @@ SKills & Tools Media Queries
  margin-left: 20px;
 }
 
-.projectOneLeft img {
-  width: 400px;
-}
+
 
 
 
