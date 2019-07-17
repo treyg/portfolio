@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Trey Gordon Web Development</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Trey Gordon Web Development"/>
+    <meta name="description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
+        specializing in small business site development and technical search engine optimization."/>
+    <meta property="og:image" content="images\hero-section.JPG">
+
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <!-- Google font cdn -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -12,12 +17,6 @@
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script type="text/javascript" src="main.js"></script>
-    <!-- meta descriptions -->
-    <meta name="title" content="Trey Gordon Web Development"/>
-    <meta name="description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
-        specializing in small business site development and technical search engine optimization."/>
-    <meta property="og:image" content="images\hero-section.JPG">
-
 </head>
 <body>
     
@@ -257,10 +256,30 @@
         <a href="https://twitter.com/TreyGordon" target="blank"><i class="fab fa-twitter"></i></a>
         <a href="https://dribbble.com/TreyG" target="blank"><i class="fab fa-dribbble"></i></a>
     </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+            <p>Some text in the Modal Body Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Dolore, culpa magnam ut delectus quasi corporis commodi numquam enim at 
+                explicabo. Minus quibusdam soluta quidem harum.</p>
+          </div>
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        </div>
+      
+      </div>
     
         <footer id="foot">
             <h4>Resume</h4>
-            <h4>About the Site</h4>
+            <button id="myBtn">About the Site</button>
         </footer>
 
 <!-- Skills Section -->
@@ -274,6 +293,34 @@ let navBarToggle = document.getElementById('js-navbar-toggle');
 navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
 });
+
+
+
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
  
 </script>
 </body>

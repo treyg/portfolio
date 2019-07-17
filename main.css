@@ -236,7 +236,7 @@ margin-top: 10px;
 
 }
 
-@media (min-width: 300px) and (max-width: 812px) and (orientation: landscape) {
+@media (min-width: 200px) and (max-width: 812px) and (orientation: landscape) {
   .hero-text {
     text-align: start;
     width: 90%;
@@ -686,8 +686,9 @@ margin-top: 10px;
 
 .what {
   position: relative;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  
 }
 
 .what:before {
@@ -793,7 +794,7 @@ margin-top: 10px;
 
 
   .what {
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
 
 
@@ -991,7 +992,7 @@ SKills & Tools Media Queries
 .toolIcons img {
   width: 12%;
   margin-left: 15px;
-  margin-right: 20px;
+  margin-right: 22px;
 }
 
 
@@ -1258,7 +1259,9 @@ textarea {
   border-radius: 8px;
   font-size: 20px;
   padding: 40px 20px 40px 30px;
+  
 }
+
 
 /* Message Box Section */
 .message-box {
@@ -1514,9 +1517,91 @@ footer h4 {
   color: #525f7f;
 }
 
+footer button {
+  border: none;
+  background-color: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: #525f7f;
+  text-transform: uppercase;
+}
+
+
 @media screen and (max-width: 510px) {
 
   footer {
     flex-direction: column;
   }
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 85%;
+  max-width: 850px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {bottom:-300px; opacity:0} 
+  to {bottom:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {bottom:-300px; opacity:0}
+  to {bottom:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
 }
