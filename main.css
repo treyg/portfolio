@@ -825,6 +825,7 @@ margin-top: 10px;
 
 .skills {
   margin-top: 5%;
+  padding-top: 20px;
   width: 50%;
   border-right: 1px solid #f6f9fc;
   background-color: white;
@@ -875,6 +876,7 @@ margin-top: 10px;
 
 .tools {
   margin-top: 5%;
+  padding-top: 20px;
   width: 50%;
   border-left: 1px solid #f6f9fc;
   background-color: white;
