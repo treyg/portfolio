@@ -112,7 +112,6 @@ p::selection {
 
   .logo {
       margin-top: 0;
-     
   }
 
   .navbar-toggle {
@@ -151,11 +150,11 @@ p::selection {
     
   }
 
- 
+
 
   #js-menu li a {
-   color: #8898AA;
-   font-weight:600;
+    color: #8898AA;
+    font-weight:600;
     padding-left: 10px;
   }
 
@@ -219,7 +218,6 @@ margin-top: 10px;
     text-align: start;
     width: 90%;
     margin-top: 15%;
-   
   }
   
   .hero-text h1 {
@@ -1358,15 +1356,13 @@ textarea {
   }
    
   .contact-info input {
-   line-height: 40px;
-   font-size: 19px;
-   
+    line-height: 40px;
+    font-size: 19px;
   }
   
   input {
     border: none;
     border-bottom: 1px solid #f2f2f2;
-   
   }
   
   .contact-message {
@@ -1408,7 +1404,7 @@ textarea {
     padding-left: 20px;
   }
   
-   .purple {
+  .purple {
     font-weight: 300;
     font-size: 29px;
     color: #6772e5;
@@ -1466,7 +1462,7 @@ textarea {
   
   .contact-button {
     margin: 30px auto;
-   float: left;
+    float: left;
   }
 }
 
@@ -1475,7 +1471,6 @@ textarea {
 /* Start Social Media Section */
 .social-section {
   width: 100%;
- 
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -1556,8 +1551,10 @@ footer button {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
+  border: 2px solid #fefefe;
+  border-radius: 5px;
   width: 85%;
+  line-height: 1.5;
   max-width: 850px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   -webkit-animation-name: animatetop;
@@ -1579,29 +1576,36 @@ footer button {
 
 /* The Close Button */
 .close {
-  color: white;
+  color: #6772e5;
   float: right;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
+  margin-top: -10px;
 }
 
 .close:hover,
 .close:focus {
   color: #000;
+  opacity: .8;
   text-decoration: none;
   cursor: pointer;
 }
 
 .modal-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
+  padding: 5px 16px;
+  background-color: #fefefe;
+  color: #24b47e;
+}
+
+.modal-header h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .modal-body {padding: 2px 16px;}
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: #fefefe;
   color: white;
 }
