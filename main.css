@@ -635,6 +635,7 @@ margin-top: 10px;
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 25px;
+
   }
   
   .about-title i {
@@ -790,11 +791,15 @@ margin-top: 10px;
 /* What alignment and sizing for smaller screens */
 @media screen and (max-width: 768px) { 
 
-
-  .what {
-    margin-bottom: 3%;
+  .what::before {
     top: -75px;
   }
+
+  .what {
+    margin-bottom: 80px;
+    padding: 0;
+  }
+
 
 
   .what p {
