@@ -796,14 +796,13 @@ margin-top: 10px;
 @media screen and (max-width: 768px) { 
 
   .what::before {
-    top: -75px;
-    display:block;
+    
   }
 
   .what {
     display: block;
     margin-bottom: 70px;
-    padding: 0;
+    padding-top: 60px;
   }
 
 
