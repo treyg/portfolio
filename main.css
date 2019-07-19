@@ -607,8 +607,9 @@ margin-top: 10px;
 
   .mobile-section {
     position: relative;
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 650px;
+  margin: 0 auto;
     transform: rotate(-12deg);
     margin-top: 0;
     padding: 0;
@@ -616,11 +617,10 @@ margin-top: 10px;
   }
 
   .mobile-section img {
-    display:block;
-   width: 650px;
-   margin-left: 10%;
-   padding: 0;
-  
+    width: 650px;
+    margin-left: -10%;
+    padding: 0;
+    margin-bottom: -75px;
   }
 
   .about-section {
@@ -795,10 +795,21 @@ margin-top: 10px;
 /* What alignment and sizing for smaller screens */
 @media screen and (max-width: 768px) { 
 
-  .mobile-section {
+  /* .mobile-section {
     display: block;
     margin-bottom: -75px;
+    width: ;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .mobile-section img {
+    
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  
   
 
   .what::before {
