@@ -612,7 +612,7 @@ margin-top: 10px;
     transform: rotate(-12deg);
     margin-top: 0;
     padding: 0;
-    margin-bottom: -75px;
+    
   }
 
   .mobile-section img {
@@ -796,7 +796,8 @@ margin-top: 10px;
 @media screen and (max-width: 768px) { 
 
   .what::before {
-    
+    display: block;
+    top: -100px;
   }
 
   .what {
