@@ -615,15 +615,16 @@ margin-top: 10px;
   }
 
   .mobile-section img {
+    display:block;
    width: 650px;
    margin-left: 10%;
    padding: 0;
-   border: 2px solid;
+  
   }
 
   .about-section {
     margin-bottom: -30px;
-    border: 2px solid red;
+   
   }
 
   .about-title {
@@ -795,10 +796,11 @@ margin-top: 10px;
 
   .what::before {
     top: -75px;
-    border: 2px solid red;
+    display:block;
   }
 
   .what {
+    display: block;
     margin-bottom: 70px;
     padding: 0;
   }
