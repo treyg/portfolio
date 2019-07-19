@@ -795,13 +795,15 @@ margin-top: 10px;
 /* What alignment and sizing for smaller screens */
 @media screen and (max-width: 768px) { 
 
-  #contact-jump {
-    margin-bottom: -200px;
+  .mobile-section {
+    display: block;
+    margin-bottom: -75px;
   }
+  
 
   .what::before {
     display: block;
-    top: -100px;
+    
   }
 
   .what {
