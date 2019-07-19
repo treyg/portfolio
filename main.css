@@ -614,10 +614,11 @@ margin-top: 10px;
   }
 
   .mobile-section img {
-    margin-left: -10%;
+    margin-left: -15%;
     margin-right: auto;
-    margin-bottom: -13%;
-    width: 120vw;
+    margin-bottom: -15%;
+    width: 150vw;
+    max-width: 900px;
     
   }
 
