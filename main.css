@@ -610,17 +610,14 @@ margin-top: 10px;
     display: block;
     transform: rotate(-12deg);
     margin-top: 0;
-    padding: 0;
-    border: 2px solid;
+   
   }
 
   .mobile-section img {
-
-   width: 650px;
-    margin-left: auto;
+    margin-left: -10%;
     margin-right: auto;
-    margin-bottom: -55px;
-    border: 2px solid red;
+    margin-bottom: -13%;
+    width: 120vw;
     
   }
 
