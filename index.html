@@ -2,52 +2,37 @@
 <html>
 <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127315011-2"></script>
-
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-127315011-2');
-
 </script>
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Primary Meta Tags -->
-<title>Trey Gordon Web Development</title>
-<meta name="title" content="Trey Gordon Web Development - Grand Rapids, Michigan">
-<meta name="description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
-      specializing in small business site development and technical search engine optimization.">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://treygordon.com/">
-<meta property="og:title" content="Trey Gordon Web Development - Grand Rapids, Michigan">
-<meta property="og:description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
-                 specializing in small business site development and technical search engine optimization.">
-<meta property="og:image" content="images\hero-section.JPG">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://treygordon.com/">
-<meta property="twitter:title" content="Trey Gordon Web Development - Grand Rapids, Michigan">
-<meta property="twitter:description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
-        specializing in small business site development and technical search engine optimization.">
-<meta property="twitter:image" content="images\hero-section.JPG">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trey Gordon Web Development</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Trey Gordon Web Development"/>
+    <meta name="description" content="Hi, I'm Trey, a front end web developer and designer from Grand Rapids, Michigan,
+        specializing in small business site development and technical search engine optimization."/>
+    <meta property="og:image" content="images\hero-section.JPG">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <!-- Google font cdn -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
     <script type="text/javascript" src="main.js"></script>
 </head>
-
 <body>
+    
+
+
+
 <!-- Start Nav Bar -->
     <nav class="navbar">
             <span class="navbar-toggle" id="js-navbar-toggle">
@@ -182,8 +167,8 @@
 </section>
     
 
-
 <!-- Start Projects section -->
+
 
 
 <div class="title" id="projects">
@@ -203,7 +188,7 @@
             <p>E-commerce and how-to site built for a construction products company specializing in door installation. Site built using
                 WordPress, Woocommerce, Divi, and custom CSS.
             </p>
-            <a href="https://ezhangdoor.com" id="project-live" target="blank">Live Site</a>
+            <button class="project-live">Live Site</button>
         </div>
     </div>
 
@@ -218,8 +203,8 @@
                     <h2>Heritage Farm Market</h2>
                     <br>
                     <p>WordPress site built for a local farm market using
-                     Elementor and custom CSS. Built, customized, and deployed entire site.</p>  
-                     <a href="https://heritagefarmmarket.com" id="project-live" target="blank">Live Site</a>
+                     custom Elementor and custom CSS. Built, customized, and deployed entire site.</p>  
+                    <button class="project-live">Live Site</button>
 
                 </div>
         </div>
@@ -237,9 +222,9 @@
                 <div class="projectOneRight">
                         <h2>Javascript Speed Typer</h2>
                         <br>
-                        <p>Speed typing game using english and pali words. Built using vanilla javascript and Boostrap 4.</p>  
-                        <a href="https://js-speed-typer.netlify.com/" id="project-live" target="blank">Live Site</a>
-                        <span><a href="https://github.com/treyg/speed-typer" id="project-live" target="blank">code</a></span> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quisquam quia iste sint accusantium molestias.</p>  
+                        <button class="project-live">Live Site</button>
+                        <span><button class="project-live">code</button></span>
                     </div>
     </div>
 
@@ -307,36 +292,27 @@
         </footer>
 
 <script>
-
   //Nav bar repsonive JS
 let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
-
 navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('active');
 });
-
-
 // Modal popup for footer
   // Get the modal
 var modal = document.getElementById("myModal");
-
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
  modal.style.display = "block";
 }
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
