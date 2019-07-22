@@ -1056,7 +1056,8 @@ line-height: 28px;
 color: #525f7f;
 }
 
-.projects button {
+.project-live {
+display: inline-block;
 color: #fff;
 background: #6772e5;
 height: 40px;
@@ -1071,10 +1072,10 @@ letter-spacing: .025em;
 border: none;
 transition: all .15s ease;
 margin: 30px 5px;
-
+text-decoration: none;
 }
 
-.projects button:hover {
+.project-live:hover {
 background-color: #7795f8;
 transform: translateY(-1px);
 }
