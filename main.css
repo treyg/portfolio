@@ -428,7 +428,7 @@ margin-top: 10px;
 }
   
 
-/* SVG Phone and table div section1 */
+ /* SVG Phone and table div section1 */
 
 .flatwrap {
   max-width: 100%;
@@ -792,24 +792,9 @@ margin-top: 10px;
 }
 
 /* What alignment and sizing for smaller screens */
+
 @media screen and (max-width: 768px) { 
 
-  /* .mobile-section {
-    display: block;
-    margin-bottom: -75px;
-    width: ;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .mobile-section img {
-    
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
-  
-  
 
   .what::before {
     display: block;
@@ -1059,7 +1044,9 @@ SKills & Tools Media Queries
   color: #525f7f;
 }
 
-.projects button {
+
+#project-live {
+  display: inline-block;
   color: #fff;
   background: #6772e5;
   height: 40px;
@@ -1074,10 +1061,11 @@ SKills & Tools Media Queries
   border: none;
   transition: all .15s ease;
   margin: 30px 5px;
+  text-decoration: none;
   
 }
 
-.projects button:hover {
+#project-live:hover {
   background-color: #7795f8;
   transform: translateY(-1px);
 }
