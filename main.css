@@ -891,8 +891,26 @@ max-width: 80px;
 margin-left: 25px;
 margin-right: 25px;
 margin-bottom: 25px;
+}
+
+.skillIcons title {
+  visibility: hidden;
+  position: relative;
+  display: inline-block;
+  width: 320px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
 
 }
+
+.skillIcons title:hover {
+  visibility: visible;
+  
+}
+
 
 .skillIcons img:nth-child(-n+2) {
 width: 12%;
@@ -1536,6 +1554,7 @@ text-transform: uppercase;
 footer h4 {
 font-size: 15px;
 color: #525f7f;
+font-weight: 600;
 }
 
 footer button {
