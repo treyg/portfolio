@@ -19,6 +19,7 @@ p::selection {
 background: #6772e5;
 color: white;
 }
+
 /* Start Navbar Styling */
 
 .navbar {
@@ -495,7 +496,6 @@ padding-left: 20px;
 
 .about-txt {
   width: 50%;
- 
 }
 
 
@@ -543,11 +543,9 @@ padding-left: 20px;
   z-index: 1;
   position: relative;
   margin-right: -60%;
-  
 }
 
 .about-img img {
- 
   transform: rotate(-12deg);
 }
 
@@ -766,8 +764,6 @@ color: #24b47e;
 }
 }
 
-
-
 .what h2 {
 text-align: center;
 padding-top: 20px;
@@ -791,22 +787,6 @@ color: #525f7f;
 
 /* What alignment and sizing for smaller screens */
 @media screen and (max-width: 768px) { 
-
-/* .mobile-section {
-  display: block;
-  margin-bottom: -75px;
-  width: ;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mobile-section img {
-  
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-
-
 
 .what::before {
   display: block;
@@ -1110,7 +1090,6 @@ width: 50%;
 }
 
 .projectOneRight {
-/* border: 2px solid pink; */
 font-size: 1em;
 margin-top: 10px;
 margin-left: 20px;
@@ -1270,8 +1249,6 @@ width: 50%;
 .contact-info input {
 line-height: 40px;
 font-size: 19px;
-
-
 }
 
 input {
@@ -1341,7 +1318,6 @@ float: right;
 /*/////////////////////////////////
 /* contact section media queries */
 /*/////////////////////////////////*/
-
 
 
 @media screen and (max-width: 768px) { 
@@ -1435,7 +1411,6 @@ textarea {
   padding: 40px 20px 40px 20px;
 }
 }
-
 
 
 
