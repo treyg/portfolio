@@ -237,14 +237,14 @@
             <div class="contact-info">
                 <img src="images/care-about-planet.svg" alt="contact globe">
                 <form id="form" action="POST" data-netlify="true">
-                    <input type="text" name="name" placeholder="Full Name" required />
-                    <input type="email" name="email" placeholder="Email" required/>
-                    <input type="text" name="company" placeholder="Company" />
+                    <input type="text" name="name" placeholder="Full Name" label for="name" required />
+                    <input type="email" name="email" placeholder="Email" label for="email" required/>
+                    <input type="text" name="company" placeholder="Company" label for="company"/>
                 
                 </div>
                     <div class="contact-message">
                         <img src="images/paper-plane.svg" alt="contact plane">
-                        <textarea required name="message" placeholder="I am currently accepting freelance work. Send me a message to get in touch!" onkeyup="adjust_textarea(this)"></textarea>
+                        <textarea label for="message" required name="message" placeholder="I am currently accepting freelance work. Send me a message to get in touch!" onkeyup="adjust_textarea(this)"></textarea>
                         </div>
                 </form>
         </div>
