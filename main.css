@@ -1375,11 +1375,13 @@ float: right;
   border-radius: 8px;
   padding: 40px 20px 40px 20px;
   width: 80%;
+  overflow: hidden;
 }
  
 .contact-info input {
   line-height: 40px;
   font-size: 19px;
+  overflow: hidden;
 }
 
 input {
