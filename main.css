@@ -919,7 +919,7 @@ font-size: 1.8em;
 .tools i {
 font-size: 40px;
 animation: pulse 3s infinite linear;
-
+padding-left: 20px;
 }
 
 
