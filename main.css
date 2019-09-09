@@ -1396,12 +1396,13 @@ input {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-
+  border: 2px solid red;
 }
 
 .contact-message img {
   width: 30%;
   max-width: 100px;
+  min-width: 50px;
   margin-left: 5px;
   margin-right: auto;
   overflow: hidden;
@@ -1412,7 +1413,9 @@ textarea {
   width: 100%;
   border-radius: 8px;
   font-size: 19px;
-  padding: 40px 20px 40px 20px;
+  padding: 40px 15px 40px 20px;
+  border: 2px solid pink;
+  overflow: hidden;
 }
 }
 
