@@ -6,16 +6,13 @@
         padding-bottom: 0;
         height: 70px;
         align-items: center;
-       
     }
-    
     
     .main-nav {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
-        
     }
     
     .main-nav li {
@@ -43,12 +40,9 @@
     .navbar li i {
       display: none;
     }
-    
-    
     }
     
 @media screen and (max-width: 768px) {
-    
     
     #js-menu {
       background-color:#fff;
@@ -64,10 +58,7 @@
       right: 0;
       margin-left: auto;
       margin-right: auto;
-      
     }
-    
-    
     
     #js-menu li a {
       color: #8898AA;
@@ -93,8 +84,6 @@
 /*////////////////////////////////////////////////*/
 
 @media (min-width: 320px) and (max-width: 823px) {
-
-
 
     .hero-text {
       text-align: start;
@@ -128,7 +117,7 @@
     }
     }
 
-    /* ////////////////////////////// */
+/* ////////////////////////////// */
 /* Media Queries for Grid Section */
 /* ////////////////////////////// */
 
@@ -200,7 +189,6 @@
     .flat {
       visibility: hidden;
     }
-    
     }
     
 @media (min-width: 300px) and (max-width: 812px) and (orientation: landscape) {
@@ -211,7 +199,7 @@
     }
 
 
-    /* Media for svg phone ad table div */
+/* Media for svg phone ad table div */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
     .flatwrap {
@@ -261,10 +249,9 @@
       margin-right: -750px;
       margin-bottom: 50px;
     }
-    
     }
     
-    
+
 @media screen and (max-width: 788px) {
     
     .mobile-section {
@@ -307,13 +294,10 @@
       font-size: 50px;
       animation: pulse 3s infinite linear;
       margin-bottom: 20px;
-      
     }
-    
     
       .about-section {
         width: 90vw;
-        
       }
     
       .about-txt {
@@ -328,10 +312,8 @@
         width: 100%;
         border: none;
         margin-bottom: 0;
-        padding: 0;
-        
+        padding: 0; 
       }
-    
     
       .about-img {
        visibility: hidden;
@@ -343,11 +325,10 @@
         height: 0px;
         visibility: hidden;
       }
-    
     }
 
 
-    /* What alignment and sizing for smaller screens */
+/* What alignment and sizing for smaller screens */
 @media screen and (max-width: 768px) { 
 
     .what::before {
