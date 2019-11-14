@@ -436,7 +436,7 @@ text-transform: uppercase;
 
 .what p {
 max-width: 730px;
-text-align: left;
+text-align: center;
 margin: auto;
 margin-top: 40px;
 font-size: 17px;
