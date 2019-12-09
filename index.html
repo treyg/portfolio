@@ -62,9 +62,9 @@
 
 <div class="grid-container">
     <div class="areaOne"></div>
-    <div class="areaTwo"></div>
+    <div class="areaTwo rellax" data-rellax-speed="-3"></div>
     <div class="areaThree"></div>
-    <div class="areaFour"></div>
+    <div class="areaFour rellax" data-rellax-speed="2"></div>
     <div class="areaFive"></div>
     <div class="areaSix"></div>
 
@@ -72,7 +72,7 @@
 </div>
 
 
-  <div class="hero-text">
+  <div class="hero-text rellax" data-rellax-speed="-1">
         <h1><span>Hi, I'm Trey - a front end web developer</span></h1>
         <br>
         <h2>I'm a front end web developer and designer from Grand Rapids, Michigan,
@@ -83,7 +83,7 @@
     </div>
   
 <!-- Flat image div -->
-<div class="flatwrap">
+<div class="flatwrap rellax" data-rellax-speed="-1">
     <img class="flat" src="images/tablet-phone.svg" alt="large phone-tablet">
 </div>
     
@@ -111,8 +111,8 @@
                     <p id="contact-jump">Contact me to get started<i class="fas fa-arrow-right"></i></p>
                 </a>
         </div>
-            <div class="about-img">
-                <img src="images/about-pic-phone.svg" alt="about pic">
+            <div class="about-img rellax"  data-rellax-speed="-2">
+                <img src="images/about-pic-phone.svg"   alt="about pic">
             </div>
 
     </div>
@@ -333,6 +333,10 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax')
 </script>
 </body>
 </html>
