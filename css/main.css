@@ -213,10 +213,6 @@ grid-area: areaSix;
 
 }
 
-
-
-
-
 /* SVG Phone and table div section1 */
 
 .flatwrap {
@@ -225,8 +221,6 @@ position: relative;
 margin-top: -550px;
 
 }
-
-
 
 /*///////////////////////////*/
 
@@ -320,8 +314,6 @@ padding-left: 20px;
 
 }
 
-
-
 .about-img {
   margin-top: -230px;
   z-index: 1;
@@ -336,9 +328,6 @@ padding-left: 20px;
 .mobile-section {
   display: none;
 }
-
-
-
 
 
 /* What I do section */
