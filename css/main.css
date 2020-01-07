@@ -638,12 +638,13 @@ content: "";
 position: absolute;
 z-index: 0;
 width: 100%;
-height: 82%;
+height: 100%;
 top: 250px;
 -webkit-transform: skewY(-12deg);
 transform: skewY(-12deg);
 background: #242629;
 border-top: 3px solid #010101;
+border: 2px solid red;
 }
 
 
@@ -814,10 +815,11 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 background-color: #242629;
-margin-top: -80px;
 padding-top: 150px;
 padding-bottom: 100px;
 position: relative;
+border: 2px solid blue;
+z-index: 3;
 }
 
 .social-section i {
