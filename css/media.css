@@ -462,7 +462,10 @@ SKills & Tools Media Queries
 
 
 @media screen and (max-width: 768px) { 
-
+  
+  .contact-bg::before {
+   border: none;
+    }
   
   .contact-bg {
     position: relative;
