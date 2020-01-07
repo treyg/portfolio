@@ -638,7 +638,7 @@ content: "";
 position: absolute;
 z-index: 0;
 width: 100%;
-height: 92%;
+height: 82%;
 top: 250px;
 -webkit-transform: skewY(-12deg);
 transform: skewY(-12deg);
@@ -738,6 +738,7 @@ padding: 40px 20px 40px 30px;
 background-color: #242629;
 letter-spacing: 1px;
 line-height: 25px;
+color: #fffffe;
 }
 
 
