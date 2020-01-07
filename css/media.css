@@ -323,7 +323,7 @@
 SKills & Tools Media Queries
 /* /////////////////////////// */
 
-@media screen and (max-width: 980px) { 
+@media screen and (max-width: 970px) { 
 
   .skillsSection {
     display: flex;
@@ -334,11 +334,12 @@ SKills & Tools Media Queries
   .skills {
     border: 2px solid #010101;
     border-top: none;
+    width: 100%;
   }
   
   .skillIcons {
-  width: 100%;
-  min-width: 0;
+  width: 80%;
+  min-width:380px;
   }
   
   
@@ -353,6 +354,7 @@ SKills & Tools Media Queries
     border: 2px solid #010101;
     border-top: none;
     border-bottom: none;
+    width: 100%;
   }
   
   
@@ -367,13 +369,13 @@ SKills & Tools Media Queries
   
   
   .toolIcons {
-  width: 100%;
-  min-width: 0;
+  width: 80%;
+  min-width: 380px;
   }
   
   .toolIcons img {
   margin-left: 15px;
-  margin-right: 22px;
+  margin-right: 25px;
   }
   
 

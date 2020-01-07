@@ -423,7 +423,8 @@ margin-top: 50px;
 
 .skills {
   border-right: 1.5px solid #010101;
-  margin-right: 0;
+
+  width: 50%;
 }
 
 
@@ -490,8 +491,8 @@ width: 13%;
 } */
 
 .tools {
-border-left: 1px solid #010101;
-
+border-left: 1.5px solid #010101;
+width: 50%;
 }
 
 
