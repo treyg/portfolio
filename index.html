@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127315011-2"></script>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127315011-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -58,12 +58,6 @@
 <!-- Grid header section -->
 
 <div class="grid-container">
-    <div class="areaOne rellax" data-rellax-speed="-4"></div>
-    <div class="areaTwo"></div>
-    <div class="areaThree"></div>
-    <div class="areaFour rellax" data-rellax-speed="2"></div>
-    <div class="areaFive"></div>
-    <div class="areaSix"></div>
 
     
 </div>
@@ -136,8 +130,8 @@
     <div class="skills">
         <h2>skills<i class="fas fa-laptop-code"></i></h2>
         <div class="skillIcons">
-            <img src="images/html-5.svg" alt="HTML5" title="HTML">
-            <img src="images/css-3.svg" alt="CSS3" title="CSS">
+            <img src="images/html-5.png" alt="HTML5" title="HTML">
+            <img src="images\css-2.svg" alt="CSS3" title="CSS">
             <img src="images/javascript.svg" alt="Javascript" title="Javascript">
             <img src="/images/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
             <img src="/images/react.svg" alt="React" title="React">
@@ -158,6 +152,7 @@
     
 
 <!-- Start Projects section -->
+<section class="dark">
 <div class="title" id="projects">
     <h2>Projects</h2>
 </div> 
@@ -217,7 +212,7 @@
 
 <!-- Project 3 - JS -->
 
-<div class="project1">
+<div class="project1" id="last-project">
         <div class="projectOneLeft">
         <img src="images\speedtyperproject1.png" alt="computer-screen Javascript speed typer">
             </div>
@@ -230,11 +225,12 @@
                     </div>
     </div>
 
-    <hr class="divider-line">
+    
+</section>
 
 </section>
 
-
+<section class="dark">
     <div class="contact-bg" id="contact">
         <div class="contact-box-section">
             <div class="contact-info">
@@ -249,17 +245,17 @@
                 </div>
                     <div class="contact-message">
                         <img src="images/paper-plane.svg" alt="contact plane">
-                        <textarea label for="message" required name="message" placeholder="I am currently accepting freelance work. Send me a message to get in touch!" onkeyup="adjust_textarea(this)"></textarea>
+                        <textarea label for="message" required name="message" placeholder="I am currently accepting freelance work. Type your message here to get in touch!" onkeyup="adjust_textarea(this)"></textarea>
                         </div>
                 </form>
         </div>
-        <div class="message-box">
-            <h3><span class="purple">Ready to start your website?</span>
-                <br><span class="black">Send me a message above to get started</span></h3>
-            <button class="contact-button" type="submit" form="form">Send Message</button>
+            <div class="message-box">
+                <h3><span class="contact-header-main">Ready to build your website?</span>
+                    <br><span class="contact-header-secondary">Send me a message to get started</span></h3>
             </div>  
     </div>
-
+    <button class="contact-button" type="submit" form="form">Send Message</button>
+</section>
     <div class="social-section">
         <a href="https://www.linkedin.com/in/trey-gordon-17778057/" target="blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/treyg/" target="blank"><i class="fab fa-github"></i></a>
@@ -275,24 +271,18 @@
             <h2>About the Site</h2>
             </div>
             <div class="modal-body">
-                <p>The design for this site is based on the homepage for stripe.com. Being a highly regarded design, I
-                    thought building my portfolio as a mock up of Stripe's homepage would be a good 
-                    opportunity to showcase an ability to code a given design from scratch. This was also an 
-                    opportunity to demonstrate skill utilizing flexbox, grid, and custom SVG's.
-                        <br><br>
+                <p>
                     The site is built using plain HTML, CSS and vanilla Javascript. Icons are from font-awesome, and fonts
-                    are from Google Fonts. Other than the color scheme, no code was copied from Stripe.
+                    are from Google Fonts. SVG animations are using Rellax.Js.
                 </p>
             </div>
-            <div class="modal-footer">
-                <h3>Modal Footer</h3>
-            </div>
+            
         </div>
     </div>
     
         <footer id="foot">
             <h4 id="resume">Resume</h4>
-            <h4 id="year">Trey Gordon 2019</h4>
+            <h4 id="year">Trey Gordon 2020</h4>
             <button id="myBtn">About the Site</button>
         </footer>
         
