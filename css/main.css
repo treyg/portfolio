@@ -651,9 +651,7 @@ border-top: 3px solid #010101;
 position: relative;
 margin-top: 0px;
 padding-top: 150px;
-padding-bottom: 90px;
 width: 100%;
-
 
 }
 
@@ -766,6 +764,7 @@ font-size: 30px;
   margin-top: 100px;
   padding-left: 20px;
   position: relative;
+
 }
 
 .contact-header-main {
@@ -818,6 +817,8 @@ padding-top: 150px;
 padding-bottom: 100px;
 position: relative;
 z-index: 3;
+
+
 }
 
 .social-section i {
