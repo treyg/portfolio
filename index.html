@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="dark" lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -63,7 +63,16 @@
                 <li><i class="fas fa-paper-plane" style="color: #f3a3eb"></i>
                     <a href="#contact" class="nav-links">Contact</a>
                 </li>
+                <div class="toggle-container">
+                    <input type="checkbox" class="checkbox" id="theme-toggle">
+                    <label for="theme-toggle" class="label">
+                        <i class='fas fa-sun'></i>
+                        <i class="fas fa-moon"></i>
+                        <div class='ball'>
+                    </label>
+                </div>
             </ul>
+
         </nav>
         <!-- End Nav Bar -->
         <!-- Grid header section -->
@@ -293,28 +302,28 @@
                     </h3>
                 </div>
                 <div class="contact-box-section">
-                    <form id="form" action="POST" data-netlify="true"></form>
-                    <div class="contact-box contact-info">
-                        <img src="images/care-about-planet.svg" alt="contact globe">
-                        <div class="info-wrapper">
-                            <label for="name"></label>
-                            <input type="text" name="name" placeholder="Full Name" required />
-                            <label for="email"></label>
-                            <input type="email" name="email" placeholder="Email" label for="email" required />
-                            <label for="company"></label>
-                            <input type="text" name="company" placeholder="Company" label for="company" />
+                    <form id="form" name=contact method="POST" data-netlify="true">
+                        <div class="contact-box contact-info">
+                            <img src="images/care-about-planet.svg" alt="contact globe">
+                            <div class="info-wrapper">
+                                <label for="name"></label>
+                                <input type="text" name="name" placeholder="Full Name" required />
+                                <label for="email"></label>
+                                <input type="email" name="email" placeholder="Email" label for="email" required />
+                                <label for="company"></label>
+                                <input type="text" name="company" placeholder="Company" label for="company" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="contact-box contact-message">
-                        <img src="images/paper-plane.svg" alt="contact plane">
-                        <textarea label for="message" required name="message"
-                            placeholder="I am currently accepting freelance work. Type your message here to get in touch!"
-                            onkeyup="adjust_textarea(this)"></textarea>
-                    </div>
+                        <div class="contact-box contact-message">
+                            <img src="images/paper-plane.svg" alt="contact plane">
+                            <textarea label for="message" required name="message"
+                                placeholder="I am currently accepting freelance work. Type your message here to get in touch!"
+                                onkeyup="adjust_textarea(this)"></textarea>
+                        </div>
                     </form>
+                    <button class="btn secondary-btn contact-button" type="submit" form="form">Send
+                        Message</button>
                 </div>
-
-                <button class="btn secondary-btn contact-button" type="submit" form="form">Send Message</button>
             </div>
         </section>
         <div class="social-section">

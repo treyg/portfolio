@@ -4,12 +4,12 @@
   navBarToggle.addEventListener('click', function () {
     mainNav.classList.toggle('active');
   });
+
+
   // Modal popup for footer
   // Get the modal
   var modal = document.getElementById("myModal");
-  // Get the button that opens the modal
   var btn = document.getElementById("myBtn");
-  // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
   // When the user clicks the button, open the modal 
   btn.onclick = function () {
@@ -26,3 +26,43 @@
 
   //initiate Rellax JS
   var rellax = new Rellax('.rellax')
+
+  // Call theme value from browsers local storage.
+  // var theme = localStorage.getItem("theme");
+  // // Root element of the document.
+  // const _root = document.documentElement;
+
+  // // Check if local storage has no theme value, define the initial value.
+  // !theme && localStorage.setItem("theme", "dark");
+
+  // // Update theme value.
+  // theme = localStorage.getItem("theme");
+
+  // // Apply theme value to document root element.
+  // _root.setAttribute("data-theme", theme);
+
+  // // Function for change theme.
+  // // You can define this function to the a button or call this any way.
+  // function changeTheme() {
+  //   theme === "light" ?
+  //     localStorage.setItem("theme", "dark") :
+  //     localStorage.setItem("theme", "light");
+
+  //   // Update theme value
+  //   theme = localStorage.getItem("theme");
+
+  //   // Apply theme to document root element
+  //   _root.setAttribute("data-theme", theme);
+  // }
+
+
+
+  const CHANGE_THEME = () => {
+    const fullHTML = document.getElementsByTagName('html')[0]
+    const DATA_THEME = fullHTML.getAttribute('data-theme');
+    DATA_THEME == 'light' ?
+      fullHTML.setAttribute('data-theme', 'dark') :
+      fullHTML.setAttribute('data-theme', 'light');
+  }
+
+  document.getElementById('theme-toggle').addEventListener('change', CHANGE_THEME);
