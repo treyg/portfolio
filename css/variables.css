@@ -1,17 +1,5 @@
 :root {
   font-size: 10px;
-  /* Set theme variables */
-  --primary-background: #242629;
-  --secondary-background: #16161a;
-  --primary-button: #7f5af0;
-  --primary-button-lighter: #6772e5;
-  --secondary-button: #2cb67d;
-  --secondary-button-lighter: #24b47e;
-  --font-primary: #f3f6f7;
-  --font-secondary: #94a1b2;
-  --nav-toggle: rgba(255, 255, 255, 0.8);
-  --nav-content-color: #fff;
-
   --h1-size: clamp(3rem, 5vw, 4.6rem);
   --h2-size: clamp(3rem, 2.6vw, 4.6rem);
   --h3-size: clamp(2.8rem, 2.2vw, 3.8rem);
@@ -33,4 +21,36 @@
   --icon-mb: 1.5rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+html {
+  transition: background 0.2s linear;
+}
+
+[data-theme="dark"] {
+  /* Set theme variables */
+  --primary-background: #242629;
+  --secondary-background: #16161a;
+  --primary-button: #7f5af0;
+  --primary-button-lighter: #6772e5;
+  --secondary-button: #2cb67d;
+  --secondary-button-lighter: #24b47e;
+  --font-primary: #f3f6f7;
+  --font-secondary: #94a1b2;
+  --nav-toggle: rgba(255, 255, 255, 0.8);
+  --nav-content-color: #fff;
+
+}
+
+[data-theme="light"] {
+  --primary-background: #d1d1e9;
+  --secondary-background: #fffffe;
+  --primary-button: #6246ea;
+  --primary-button-lighter: #6772e5;
+  --secondary-button: #e45858;
+  --secondary-button-lighter: #e45858c9;
+  --font-primary: #2b2c34;
+  --font-secondary: #2b2c34;
+  --nav-toggle: var(--primary-button);
+  --nav-content-color: var(--font-primary);
 }
