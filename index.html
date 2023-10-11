@@ -68,20 +68,19 @@
                <label for="theme-toggle" class="label">
                   <i class='fas fa-sun'></i>
                   <i class="fas fa-moon"></i>
-                  <div class='ball'>
+                  <div class='ball'></div>
                </label>
             </div>
          </ul>
 
       </nav>
       <!-- End Nav Bar -->
-      <!-- Grid header section -->
       <div class="hero-section container spacing-lg">
 
          <div class="hero-text max-width rellax" data-rellax-speed="-1">
             <h1>Hi, I'm Trey - a frontend developer</h1>
             <br>
-            <p>I'm a frontend web developer and designer from Grand Rapids, Michigan,
+            <p>I'm a frontend web developer from Grand Rapids, Michigan,
                working with Salesforce, Node JS, and React JS</p>
             <br>
             <a href="#about"><button class="btn hero-btn">Learn More</button></a>
@@ -109,13 +108,14 @@
             </span></h2>
 
          <div class="about-txt" id="about">
-            <p>I am web developer and designer interested in all kinds of visual communication.
-               I enjoy utilizing tools and technologies to create web apps that improve user experience
-               and functionality.
-               <br><br>I have worked with many frameworks and libraries
-               to complete a variety of projects and am always learning new technologies that will enable
-               a better final product.
+            <p>
+               I'm a web developer with a interest in all things technology.
+               I enjoy using various tools to craft web apps that enhance user experience and functionality.
+               <br><br>
+               Over the years, I've worked with numerous frameworks and libraries for a diverse set of projects. I'm
+               always on the hunt for new knowledge, aiming for a more engaging and effective end result.
             </p>
+
             <a href="#contact" id="aboutContact">
                <p id="contact-jump">Contact me to get started<i class="fas fa-arrow-right"></i></p>
             </a>
@@ -131,10 +131,8 @@
             <i class="fas fa-cog counter-rotate"></i>
          </div>
          <h2>What I do</h2>
-         <p>Utilizing a variety of languages and technologies, I develop efficient and effective
-            web applications.
-            Each project that I develop is built around best practices for search engine
-            optimization and accessibility. 
+         <p>Utilizing a mix of languages and technologies, I develop efficient web applications. Every project I build
+            is rooted in best practices for performance, accessibility, and maintainability.
          </p>
       </div>
 
@@ -157,7 +155,7 @@
                <img src="/images/wordpress-icon.svg" alt="WordPress" data-title="WordPress">
                <img src="/images/github-icon.svg" alt="Github" title="Github">
                <img src="/images/figma.svg" alt="figma" id="figma" title="figma">
-               <img src="/images/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
+               <img src="/images/tailwindcss.svg" alt="Bootstrap" title="Bootstrap">
                <img src="/images/netlify.svg" alt="netlify" title="Netlify">
             </div>
          </div>
@@ -171,10 +169,44 @@
          </div>
 
          <section class="projects">
-            <!-- Project One - EZ-Hang -->
-            <div class="project_ex">
+            <!-- Merrell - Sustainability -->
+            <article class="project_ex">
                <div class="project-left_lg">
-                  <img src="images\ezhangproject1.png" alt="computer-screen Ez-Hang Door" id="">
+                  <img src="images\merrell.png" alt="computer-screen of Merrell - Sustainability." loading="lazy">
+               </div>
+               <div class="project-right_lg">
+                  <h3>Merrell - Sustainability</h3>
+                  <p>Sustainability landing page for merrell.com. Built with HTML, CSS and vanilla Javascript.</p>
+                  <a href="https://www.merrell.com/US/en/sustainability/" class="btn" target="blank">Live Site</a>
+               </div>
+            </article>
+
+            <hr class="divider-line">
+
+            <!-- Synology photos memories -->
+            <article class="project_ex">
+               <div class="project-left_lg">
+                  <img src="images\syno-photo-mems.png" alt="computer-screen of Synology photos memories app."
+                     loading="lazy">
+               </div>
+               <div class="project-right_lg">
+                  <h3>Synology Photos Memories</h3>
+                  <p>Node JS/Docker app that fills the void for Synology photos lacking a memory feature similar to
+                     Google Photos. An email is sent daily, weekly or monthly with past photos that can also be viewed
+                     on a webpage.</p>
+                  <a href="https://hub.docker.com/repository/docker/treygordon/synology-photos-memories/general"
+                     class="btn" target="blank">Live Site</a>
+                  <a href="https://github.com/treyg/synology-photos-memories" class="btn secondary-btn"
+                     target="blank">code</a>
+               </div>
+            </article>
+
+            <hr class="divider-line">
+
+            <!--  EZ-Hang -->
+            <article class="project_ex">
+               <div class="project-left_lg">
+                  <img src="images\ezhangproject1.png" alt="computer-screen Ez-Hang Door" id="" loading="lazy">
                </div>
                <div class="project-right_lg">
                   <h3>EZ-Hang Door</h3>
@@ -184,14 +216,15 @@
                   </p>
                   <a href="https://ezhangdoor.com" class="btn" target="blank">Live Site</a>
                </div>
-            </div>
+            </article>
 
             <hr class="divider-line">
 
-            <!-- Project 2 stons -->
-            <div class="project_ex">
+            <!-- Stons Center -->
+            <article class="project_ex">
                <div class="project-left_lg">
-                  <img src="images\stonshome.png" alt="computer-screen stons center app" class="slide-in">
+                  <img src="images\stonshome.png" alt="computer-screen stons center app" class="slide-in"
+                     loading="lazy">
                </div>
                <div class=" project-right_lg">
                   <h3>StonsCenter</h3>
@@ -200,18 +233,35 @@
                      with
                      Node, Firebase and Tailwind CSS.</p>
                   <a href="https://www.stonscenter.com/" class="btn" target="blank">Live Site</a>
-                  <span><a href="https://github.com/treyg/pistons-tracker" class="btn secondary-btn"
-                        target="blank">code</a></span>
+                  <a href="https://github.com/treyg/pistons-tracker" class="btn secondary-btn" target="blank">code</a>
                </div>
-            </div>
+            </article>
 
             <hr class="divider-line">
 
-
-            <!-- Project Two - Heritage -->
-            <div class="project_ex">
+            <!-- Very Bad Media -->
+            <article class="project_ex">
                <div class="project-left_lg">
-                  <img src="images\heritageproject1.png" alt="computer-screen heritage farms" id="computer-screen2">
+                  <img src="images/very-bad-media.png" alt="computer-screen Very Bad Media" loading="lazy">
+               </div>
+               <div class="project-right_lg">
+                  <h3>Very Bad Media</h3>
+                  <p>Media lists from topics discussed on the philosophy podcast "Very Bad Wizards". Built with Next.js,
+                     Chakra UI and MongoDB. The media lists are generated by processing the podcast's RSS feed through
+                     the OpenAI API.
+                  </p>
+                  <a href="https://verybad.media" class="btn" target="blank">Live Site</a>
+                  <a href="https://github.com/treyg/very-bad-media" class="btn secondary-btn" target="blank">code</a>
+               </div>
+            </article>
+
+            <hr class="divider-line">
+
+            <!-- Heritage Farms -->
+            <article class="project_ex">
+               <div class="project-left_lg">
+                  <img src="images/heritageproject1.png" alt="computer-screen heritage farms" id="computer-screen2"
+                     loading="lazy">
                </div>
                <div class="project-right_lg">
                   <h3>Heritage Farm Market</h3>
@@ -220,74 +270,29 @@
                   <a href="https://heritagefarmmarket.com" class="btn" target="blank">Live Site</a>
 
                </div>
-            </div>
-
+            </article>
 
             <hr class="divider-line">
 
-            <!-- tgwd -->
-
-
-            <div class="project_ex">
+            <!-- Global stream -->
+            <article class="project_ex">
                <div class="project-left_lg">
-                  <img src="images\Tag(3).png" alt="computer-screen Tag Web Dev">
+                  <img src="images/stream-finder.png" alt="computer-screen global stream." id="computer-screen2"
+                     loading="lazy">
                </div>
                <div class="project-right_lg">
-                  <h3>Tag Web Development</h3>
-                  <p>Statically generated agency site built with Vue JS, Gridsome, and Boostrap-Vue. Hosted on
-                     Netlify.
+                  <h3>Global Stream - stream finder</h3>
+                  <p>This application utilizes the TMDB API to enable users to search for movies and TV shows and
+                     discover available streaming options based on their location and preferred provider. Additionally,
+                     users can add movies to a watchlist that is saved locally. Built with Vue, Node, and Express JS.
                   </p>
-                  <a href="https://tagwebdev.io/" class="btn" target="blank">Live Site</a>
-                  <span><a href="https://github.com/treyg/tag-web-dev" class="btn secondary-btn"
-                        target="blank">code</a></span>
+                  <a href="https://globalstream.netlify.app/#/" class="btn" target="blank">Live Site</a>
+                  <a href="https://github.com/treyg/global-stream" class="btn secondary-btn" target="blank">code</a>
+
                </div>
-            </div>
-
-            <hr class="divider-line">
-
-
-            <!-- simpler shopper -->
-
-            <div class="project_ex">
-               <div class="project-left_lg">
-                  <img src="images\shopcomp.png" alt="computer-screen simple shopper app">
-               </div>
-               <div class="project-right_lg">
-                  <h3>Simple Shopper PWA</h3>
-                  <p>Shopping list application progressive web app built with HTML, CSS, and vanilla
-                     Javascript. Add, check, and
-                     delete items.
-                     List saves to local storage.</p>
-                  <a href="https://simpleshopper.netlify.com/" class="btn" target="blank">Live Site</a>
-                  <span><a href="https://github.com/treyg/shopping-list-pwa" class="btn secondary-btn"
-                        target="blank">code</a></span>
-               </div>
-            </div>
-
-            <hr class="divider-line">
-
-            <!-- Project 3 - Gr Shows -->
-
-            <div class="project_ex" id="last-project">
-               <div class="project-left_lg">
-                  <img src="images\GR-Events.png" alt="computer-screen GR Events">
-               </div>
-               <div class="project-right_lg">
-                  <h3>Grand Rapids Events (in development)</h3>
-                  <p>Local events app for Grand Rapids. Users can filter and search upcoming results and
-                     upload custom
-                     events.
-                     Built with Vue JS and Bootstrap-Vue.
-                     User submitted events are uploaded to headless WordPress using the WP rest API.</p>
-                  <a href="https://grshows.netlify.app/" class="btn" target="blank">Live Site</a>
-                  <span><a href="https://github.com/treyg/shows-tonight" class="btn secondary-btn"
-                        target="blank">code</a></span>
-               </div>
-            </div>
-
+            </article>
 
          </section>
-
       </section>
 
       <section class="container contact-section">
